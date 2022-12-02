@@ -6,15 +6,8 @@
     return result;
 }
 
-int a1=5;
-int a2=4;
-int a3=9;
-int a4=10000;
-int a5=15;
-int a6=20;
-int a7=251;
-int a8=300;
-int a9=10001;
+int[] array = {555,3123,55,94,12,9,666,981,1000};
+int lenght =array.Length;
 
-int max= Max((Max(a1,a2,a3)),Max(a4,a5,a6),Max(a7,a8,a9));
+int max= Max((Max(array[0],array[1],array[2])),Max(array[3],array[4],array[5]),Max(array[6],array[7],array[8]));
 Console.WriteLine(max);
