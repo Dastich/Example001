@@ -38,8 +38,8 @@ int Indexof(int[] collection, int find)
     }
     return position;
 }
-int[] array = new int[10];
 
+int[] array = new int[10];
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
